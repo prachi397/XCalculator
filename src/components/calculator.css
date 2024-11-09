@@ -9,4 +9,5 @@
     border: 2px solid black;
     border-radius: 7px;
     font-size: 22px;
+    cursor: pointer;
 }

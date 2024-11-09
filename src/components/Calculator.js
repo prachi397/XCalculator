@@ -25,13 +25,13 @@ const Calculator = () => {
   //fucntion to clear everything upon clicking on C button
   const handleClear = () =>{
     setInputVal('');
-    setOutput(0);
+    setOutput('');
     setIsCalculate(false);
   }
   return (
     <div>
       <h1>React Calculator</h1>
-      <input value={inputVal} />
+      <input type="text" value={inputVal} />
       {isCalculate && (
         <p>{output}</p>
       )}
